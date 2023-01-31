@@ -1,0 +1,61 @@
+.DialogOverlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh; 
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.DialogContent {
+    min-width: 32rem; 
+    border-radius: 6px;
+    padding: 2.5rem 3rem;
+    background: #121214;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    width: 15rem;
+    height: 15rem;
+}
+
+.DialogTitle {
+  color: white;
+  font-weight: bold;
+}
+
+.DialogDescription {
+    color: white;
+}
+
+.link {
+    height: 58px;
+    border: 0;
+    background: #dc2626;
+    color: white;
+    font-weight: bold;
+    padding: 0 1.25rem;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.link:hover {
+    background: #991b1b;
+    transition: background-color 0.2s;
+}
+
+.CloseButton {
+    position: absolute;
+    background: transparent;
+    border: 0;
+    top: 1.5rem;
+    right: 1.5rem;
+    line-height: 0;
+    cursor: pointer;
+    color: #e62429;
+}
