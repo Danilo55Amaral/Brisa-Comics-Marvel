@@ -20,7 +20,9 @@ um modal contendo informações sobre o título selecionado.
 
 ## Para Rodar o Projeto
 - Para rodar o projeto é necessário ter o nodejs instalado em sua maquina
-- Abra a pasta do projeto utilizando o terminal e execute o seguinte comando: npm rum dev
+- Abra a pasta do projeto utilizando o terminal 
+- Para instalar as dependências do projeto rode o comando:  npm i 
+- Para rodar o projeto execute o seguinte comando: npm run dev
 
 ## Projeto
 ![brisa-01.PNG](https://github.com/Danilo55Amaral/Brisa-Comics-Marvel/blob/main/brisa-01.PNG)
